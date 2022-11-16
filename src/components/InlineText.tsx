@@ -1,23 +1,23 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
 
-import HelpIcon from 'src/assets/svg/Help Icon.svg';
-import LoadingSpinner from 'src/assets/svg/Loading Spinner.svg';
-import AnnotationHeart from 'src/assets/svg/annotation-heart.svg';
-import Briefcase from 'src/assets/svg/briefcase-02.svg';
-import ChevronDown from 'src/assets/svg/chevron-down.svg';
-import FileIcon from 'src/assets/svg/file-02.svg';
-import HeadingSquare from 'src/assets/svg/heading-square.svg';
-import InfoCircle from 'src/assets/svg/info-circle.svg';
-import Lightbulb from 'src/assets/svg/lightbulb-02.svg';
-import List1Icon from 'src/assets/svg/list-1.svg';
-import ListIcon from 'src/assets/svg/list.svg';
-import ComposeLogo from 'src/assets/svg/logo_compose.png.svg';
-import Mail from 'src/assets/svg/mail-02.svg';
-import Menu from 'src/assets/svg/menu-05.svg';
-import MultiParagraphSquare from 'src/assets/svg/multi-paragraph-square.svg';
-import ParagraphSquare from 'src/assets/svg/paragraph-square.svg';
-import ZapFast from 'src/assets/svg/zap-fast.svg';
+import HelpIcon from '../assets/svg/Help Icon.svg';
+import LoadingSpinner from '../assets/svg/Loading Spinner.svg';
+import AnnotationHeart from '../assets/svg/annotation-heart.svg';
+import Briefcase from '../assets/svg/briefcase-02.svg';
+import ChevronDown from '../assets/svg/chevron-down.svg';
+import FileIcon from '../assets/svg/file-02.svg';
+import HeadingSquare from '../assets/svg/heading-square.svg';
+import InfoCircle from '../assets/svg/info-circle.svg';
+import Lightbulb from '../assets/svg/lightbulb-02.svg';
+import List1Icon from '../assets/svg/list-1.svg';
+import ListIcon from '../assets/svg/list.svg';
+import ComposeLogo from '../assets/svg/logo_compose.png.svg';
+import Mail from '../assets/svg/mail-02.svg';
+import Menu from '../assets/svg/menu-05.svg';
+import MultiParagraphSquare from '../assets/svg/multi-paragraph-square.svg';
+import ParagraphSquare from '../assets/svg/paragraph-square.svg';
+import ZapFast from '../assets/svg/zap-fast.svg';
 
 interface ListOption {
   text: string;
