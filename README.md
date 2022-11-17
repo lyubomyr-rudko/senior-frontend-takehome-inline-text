@@ -1,3 +1,23 @@
+# Compose.AI Frontend Takehome Test - Inline Text Command
+
+See https://docs.google.com/document/d/1Or0VUKzZ-k_hUn-aOApe8rrPFs0hThXIG-gRFx7dMiM for instructions.
+
+## Outline
+Static assets related to the figma design can be found int `src/assets`.  A starter react component, including some useful boilerplate can be found at `src/components/InlineText.tsx` - you should probably start there.
+## Linting
+
+Linter and formatting files are provided as part of this repository. Please follow them. You may alter the linter/formatter rules if you so choose, provided you document your changes and why you feel they are necessary.
+
+### Commands
+- `yarn lint` will print any linter errors
+- `yarn lint-staged` will auto-format any files staged for commit using prettier
+- `yarn prettier -w ./` will recursively auto-format your current directory
+
+# Candidate Notes
+Please add any relevant documentation or notes you feel are necessary in this section
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
