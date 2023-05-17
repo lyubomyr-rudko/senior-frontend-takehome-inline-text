@@ -33,9 +33,6 @@ export const Wrapper = styled.div`
   ${lines.lightSeparator}
   ${shadows.xl};
   overflow: hidden;
-
-  // TODO: remove this!!!
-  height: 492px;
 `;
 
 export const Header = styled.div`

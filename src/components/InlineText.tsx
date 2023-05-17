@@ -91,7 +91,6 @@ export const InlineText: React.FC<InlineTextProps> = ({ id }) => {
     }
 
     if (e.key === 'Enter' || e.key === 'Tab') {
-      // TODO: handle enter/tab key
       console.log('SENDING REQUEST TO API', inputValue);
     }
   };
@@ -135,6 +134,7 @@ export const InlineText: React.FC<InlineTextProps> = ({ id }) => {
 function getSearchText(value: string): string {
   let searchText = '';
 
+  // TODO: This is a hacky way to get the search text
   if (value.startsWith('Write a ')) {
     searchText = value.replace('Write a ', '').trim();
   } else if (value !== 'Write a') {
